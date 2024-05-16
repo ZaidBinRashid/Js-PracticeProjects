@@ -1,0 +1,26 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: monospace;
+}
+
+p{
+    margin-top: 0;
+    font-size: xxx-large;
+}
+
+button{
+    font-size: medium;
+    margin-left: 10px;
+    border: 2px solid;
+    border-radius: 4px;
+    padding: 4px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: black;
+    color: white;
+}

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SignUp-Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <div class="image-logo-container">
+        <img class="coralImg" src="./images/photo-signup.avif" alt="corals">
+      <div class="logo-container">
+        <img  class="logo" src="./images/logo.png" alt="logo">
+      </div>
+        <p class="credit">Photo by <u>NEOM</u> on <u>Unsplash</u></p>
+    </div>
+
+    <div class="form-container">
+        <div class="text-container">
+          <p class="header">
+            This is not a real online service! You know you need something<br> like this in your life to help you realize your deepest dreams.<br>
+            Sign up <i>now</i> to get started.
+          </p>
+          <p>
+            You <i>know</i> you want to.
+          </p>
+        </div>
+
+        <div class="form-box">
+          <span>Let's do this!</span>
+
+          <form action="">
+            <label for="firstname">FIRST NAME
+              <input type="text" name="firstname" id="firstname" minlength="3" maxlength="20" required>
+            </label>
+            
+
+            <label for="secondname">SECOND NAME
+              <input type="text"  name="secondname" id="secondname" minlength="3" maxlength="20" required>
+            </label>
+            
+
+            <label for="email">EMAIL
+              <input type="text" autocomplete="email" name="email" id="email" required>
+            </label>
+            
+
+            <label for="phonenumber">PHONE NUMBER
+              <input type="tel" autocomplete="tel" name="phonenumber" id="phonenumber" min="10" max="11" required>
+            </label>
+           
+
+            <label for="password">PASSWORD
+              <input type="password" autocomplete="new-password" name="password" id="password"  required>
+            </label>
+            
+            <label for="confirmpassword">CONFIRM PASSWORD
+              <input type="password" autocomplete="new-password" name="password" id="confirmpassword"  required>
+            </label>
+            
+
+          </form>
+        </div>
+
+      <div class="account-box">
+        <button class="create-accbtn" type="submit">Create Account</button>
+        <p>Already have an account?
+          <a href="Log in">Log in</a>
+        </p>
+      </div>
+    </div>
+  </main>
+  
+</body>
+</html>

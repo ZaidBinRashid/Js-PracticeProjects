@@ -1,0 +1,82 @@
+html,body{
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: monospace;
+  -moz-column-gap: 8px;
+  column-gap: 8px;
+  background: linear-gradient(45deg, #e3a646 0%, #e3a646 5%,transparent 5%, transparent 10%, #e3a646 10%, #e3a646 15%,transparent 15%,transparent 20%, #e3a646 20%, #e3a646 25%,transparent 25%,transparent 30%, #e3a646 30%, #e3a646 35%,transparent 35%,transparent 40%, #e3a646 40%, #e3a646 45%,transparent 45%,transparent 50%, #e3a646 50%, #e3a646 55%,transparent 55%,transparent 60%, #e3a646 60%, #e3a646 65%,transparent 65%,transparent 70%, #e3a646 70%, #e3a646 75%,transparent 70%,transparent 80%, #e3a646 80%, #e3a646 85%,transparent 85%,transparent 90%, #e3a646 90%, #e3a646 95%,transparent 95%);
+  background-size: 2em 2em;
+  background-color: #000000;
+  opacity: 1
+}
+
+main,article{
+  background-color: #fad595;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  height: 30%;
+  width: 20%;
+  padding: 10px;
+  border-radius: 8px;
+  border: 2px solid black;
+}
+
+article{
+  display: flex;
+  align-items: center;
+}
+
+.displayContainer{
+  height: 30%;
+  background-color: #ffffff;
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  border-radius: 4px;
+}
+
+input{
+  width: 65%;
+  border-radius: 4px;
+  border: none;
+  margin-top: 4px;
+}
+
+h1,label{
+  text-decoration: underline;
+}
+
+p{
+  margin: 0;
+  font-size: large;
+}
+
+.calculate {
+  background-color: #c2fbd7;
+  border-radius: 100px;
+  box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
+  color: green;
+  cursor: pointer;
+  display: inline-block;
+  font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 16px;
+  -moz-user-select: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.calculate:hover {
+  box-shadow: rgba(44,187,99,.35) 0 -25px 18px -14px inset,rgba(44,187,99,.25) 0 1px 2px,rgba(44,187,99,.25) 0 2px 4px,rgba(44,187,99,.25) 0 4px 8px,rgba(44,187,99,.25) 0 8px 16px,rgba(44,187,99,.25) 0 16px 32px;
+  transform: scale(1.05) rotate(-1deg);
+}

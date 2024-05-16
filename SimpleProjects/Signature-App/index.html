@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signature-App</title>
+    <link rel="stylesheet" href="./style.css">
+    <script defer src="./script.js"></script>
+</head>
+<body>
+    <div class="main">
+        <div class="top-content">
+            <div>
+                <p class="color-picker">Text Color Picker</p>
+                <input type="color" class="input-color" id="colorPicker">
+            </div>
+            <div>
+                <p class="background-color" >Background Color</p>
+                <input type="color" class="input-bgcolor"id="canvasColor">
+            </div>
+            <div>
+                <p>Font Size</p>
+                <select name="font-size" id="fontSizePicker">
+                    <option value="5">5px</option>
+                    <option value="10">10px</option>
+                    <option value="20">20px</option>
+                    <option value="30">30px</option>
+                    <option value="40">40px</option>
+                    <option value="50">50px</option>
+                </select>
+            </div>
+        </div>
+
+        <canvas class="canvas" id="myCanvas"
+        width="700" height="500"></canvas>
+
+        <div class="bottom-content">
+            <button class="clear" id="clearBtn">Clear</button>
+            <button class="save" id="saveBtn">Save & Download</button>
+            <button class="retrieve" id="retrieveBtn">Retrieve saved signature</button>
+        </div>
+    </div>
+</body>
+</html>

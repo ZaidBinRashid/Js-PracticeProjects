@@ -1,0 +1,38 @@
+html,body{
+    margin: 0;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+div{
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 6px;
+}
+
+.button{
+    width: 100px;
+    height: 100px;
+    border: solid 1px;
+    border-radius: 8px;
+}
+
+#blue{
+    background-color: rgb(0, 0, 255);
+}
+
+#yellow{
+    background-color: rgb(255, 255, 0);
+}
+
+#red{
+    background-color: rgb(255, 0, 0);
+}
+
+#green{
+    background-color: rgb(0, 255, 0);
+}
