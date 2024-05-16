@@ -1,0 +1,39 @@
+.container{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.display{
+  height: 20px;
+  width: 300px;
+  margin-top: 20px;
+  background-color: rgb(210, 211, 211);
+  text-align: center;
+  padding: 10px;
+}
+
+.scoreContainer{
+  display: flex;
+  align-items: center;
+}
+
+.displayScore {
+ padding: 16px 10px;
+ margin: 0;
+ background-color: rgb(210, 211, 211);
+ width: 140px;
+}
+ 
+.winner {
+  margin: 0;
+  padding: 10px;
+  height: 20px;
+  width: 300px;
+  background-color: rgb(210, 211, 211);
+  text-align: center;
+}
+
+h1, .rule {
+ margin: 5;
+}

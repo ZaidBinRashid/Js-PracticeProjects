@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rock-Paper-Scissor</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Rock-Paper-Scissor</h1>
+    <p class="rule">Winner of the game is the player who reaches 5 points first</p>
+    <div class="buttonBox">
+      <button class="rpsButton js-rock-btn">Rock</button>
+      <button class="rpsButton js-paper-btn">Paper</button>
+      <button class="rpsButton js-scissor-btn">Scissor</button>
+    </div>
+
+    <div class="display js-display-moves"></div>
+    
+    <div class="scoreContainer">
+      <span class="displayScore js-display-playerScore"></span>
+      <span class="displayScore js-display-computerScore"></span>
+    </div>
+    <p class="winner js-winner"></p>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
