@@ -21,6 +21,7 @@ body {
 .cell {
   height: 100px;
   border: 1px solid #000000;
+  border-radius: 8px;
   background-color: rgb(177, 108, 216);
   display: flex;
   align-items: center;

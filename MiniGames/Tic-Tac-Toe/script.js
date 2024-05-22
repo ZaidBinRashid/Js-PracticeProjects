@@ -16,7 +16,7 @@ renderBoard();
 
 // To populate the game board
 const allCells = document.querySelectorAll(".cell");
-
+// const cellElement = document.querySelector('.cell')
 allCells.forEach((cellElement) => {
   cellElement.addEventListener("click", () => {
     // Prevent further clicks if cell is already filled or there's a winner
