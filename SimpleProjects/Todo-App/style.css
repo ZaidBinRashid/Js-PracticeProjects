@@ -70,7 +70,7 @@ body{
   
   .disTask,
   .disTime{
-    font-size: large;
+    font-size: larger;
     font-weight: 600;
     /* margin-left: 4px; */
   }
@@ -78,7 +78,9 @@ body{
   .toTask,
   .toTime{
     font-size: large;
-    font-weight: 500;
+    font-weight: 600;
+    position: relative;
+    right:12px;
   }
   
   #checkbox{ 

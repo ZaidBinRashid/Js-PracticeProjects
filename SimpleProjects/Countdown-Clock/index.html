@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Countdown till 2025</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="countdown-container">
+      <div class="input-group">
+          <input type="number" id="hours" placeholder="HH" min="0">
+          <input type="number" id="minutes" placeholder="MM" min="0">
+          <input type="number" id="seconds" placeholder="SS" min="0">
+          <button onclick="startCountdown()">Start Countdown</button>
+      </div>
+      <div class="countdown-timer" id="countdown">00d 00h 00m 00s</div>
+      <div class="countdown-label">Time Left</div>
+  </div>
+    <script src="script.js"></script>
+  </body>
+</html>
