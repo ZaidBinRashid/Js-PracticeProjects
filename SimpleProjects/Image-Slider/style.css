@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+    background-color: black;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main{
+    display: flex;
+    align-items: center;
+}
+
+.images{
+    width: 500px;
+    height: 300px;
+    background-color: white;
+}
+
+button{
+    font-weight: 600;
+    font-size: larger;
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    border: none;
+    background-color: aquamarine;
+    position: relative;
+}
+
+button:hover{
+    background-color: rgb(194, 247, 229);
+}
+
+img{
+    width: 500px;
+    height: 300px;
+    object-fit: cover;
+}
